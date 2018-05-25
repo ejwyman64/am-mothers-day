@@ -1,0 +1,118 @@
+/* __________________ Structure ___________________*/
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden
+}
+
+header,
+main,
+footer {
+  width: 100%;
+  margin: 0;
+  border: 0;
+  padding: 1em;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+ }
+
+img {
+  vertical-align:bottom;
+}
+
+figure {
+  display:inline-block;
+  padding: 0;
+  margin: 5%;
+  border: 0;
+  
+}
+
+.love {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+/* _________________ Style _______________________*/
+
+header {
+ background-image: linear-gradient(#0247FE 5%, transparent), 
+                   url(img/legos.jpeg);
+  height: 498px;
+  border: 1px;
+  background-size: cover;
+/*  box-shadow: 6px 6px 4px #122663; */
+}
+
+.greeting {
+  font-family: withheld-data;
+  font-size: 5em;
+  text-align:center;
+  color: #FE2712;
+  text-shadow: 6px 6px 4px #980D01;
+}
+
+p {
+  text-align:center;
+  font-family: belina;
+  color: #FEFE33;
+  text-shadow: 2px 2px 1px #A2A201;
+  font-size: 3em;
+}
+
+main {
+  background: #D4DDF7;
+  background-image: linear-gradient(transparent 98%, #122663),
+                    linear-gradient(to top, #D4DDF7 98%, #122663); 
+  
+  height: 500px;
+}
+
+
+figure {
+  box-shadow: 6px 6px 4px #122663;
+}
+
+.things {
+  font-family: withheld-data;
+  font-size: 2em;
+  color: #0247FE;
+  text-shadow: 2px 2px 1px #012589;
+}
+
+footer {
+  font-family: belina;
+  font-size: 1em;
+  color: #0247FE;
+  text-shadow: 2px 2px 1px #012589;
+  background-image: url(img/legos.jpeg);
+  background-size: cover;
+}
+
+img {
+  margin:0;
+  padding: 0;
+  width: auto;
+  height: 300px;
+}
+
+/* __________________fonts______________________*/
+
+@font-face {
+  font-family: "belina";
+  src:url(BelinaDemo-Regular.otf);
+}
+
+@font-face {
+  font-family: "withheld-data";
+  src: url(Withheld%20Data.otf);
+}
