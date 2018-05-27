@@ -109,10 +109,10 @@ img {
 
 @font-face {
   font-family: "belina";
-  src:url(BelinaDemo-Regular.otf);
+  src:url(belinademo-regular.otf);
 }
 
 @font-face {
   font-family: "withheld-data";
-  src: url(Withheld%20Data.otf);
+  src: url(withheld_data.otf);
 }
